@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="DataProviders" verbose="1" >
+  	<parameter name="env" value="dev"/>
+	<test name="HandleDataProvider">
+    <classes>
+      <class name="tests.HandleDataProviders"/>
+    </classes>
+  </test>
+</suite>

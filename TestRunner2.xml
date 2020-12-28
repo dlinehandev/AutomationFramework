@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ExpediaTests" verbose="1" >
+  	<parameter name="env" value="int"/>
+	<test name="HandleCalendar">
+    <classes>
+      <class name="tests.HandleCalendar"/>
+    </classes>
+  </test>
+</suite>

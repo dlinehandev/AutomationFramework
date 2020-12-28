@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-21T19:56:20 GMT" name="ExcelDataTests" finished-at="2020-12-21T19:56:27 GMT" duration-ms="6777">
+    <groups>
+    </groups>
+    <test started-at="2020-12-21T19:56:20 GMT" name="ExcelDataTests" finished-at="2020-12-21T19:56:27 GMT" duration-ms="6777">
+      <class name="tests.Assignment2">
+        <test-method is-config="true" signature="initSuite(java.lang.String)[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:20 GMT" name="initSuite" finished-at="2020-12-21T19:56:20 GMT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:20 GMT" name="initDriver" finished-at="2020-12-21T19:56:24 GMT" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:24 GMT" name="launchApp" finished-at="2020-12-21T19:56:26 GMT" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyMyntraProductAddToCart(int, java.util.Map)[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:26 GMT" name="verifyMyntraProductAddToCart" data-provider="getData" finished-at="2020-12-21T19:56:26 GMT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{username=wizdomqa.ie@gmail.com, password=Wizdomqa12345!, ProductA=prodA1, ProductB=prodB1, ProductC=prodC1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyntraProductAddToCart -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:26 GMT" name="launchApp" finished-at="2020-12-21T19:56:26 GMT" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyMyntraProductAddToCart(int, java.util.Map)[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:26 GMT" name="verifyMyntraProductAddToCart" data-provider="getData" finished-at="2020-12-21T19:56:26 GMT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{username=wizdomqa.ie@gmail.com, password=Wizdomqa12345!, ProductA=prodA2, ProductB=prodB2, ProductC=prodC2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyntraProductAddToCart -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:26 GMT" name="launchApp" finished-at="2020-12-21T19:56:27 GMT" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyMyntraProductAddToCart(int, java.util.Map)[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:27 GMT" name="verifyMyntraProductAddToCart" data-provider="getData" finished-at="2020-12-21T19:56:27 GMT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{username=wizdomqa.ie@gmail.com, password=Wizdomqa12345!, ProductA=prodA3, ProductB=prodB3, ProductC=prodC3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyntraProductAddToCart -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.Assignment2@69b794e2]" started-at="2020-12-21T19:56:27 GMT" name="cleanUp" finished-at="2020-12-21T19:56:27 GMT" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.Assignment2 -->
+    </test> <!-- ExcelDataTests -->
+  </suite> <!-- ExcelDataTests -->
+</testng-results>
