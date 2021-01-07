@@ -2,26 +2,44 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [FrameworkLibrary]" guice-stage="DEVELOPMENT">
   <parameter name="env" value="preprod"/>
-  <test thread-count="5" name="HandleAlerts(failed)">
+  <test thread-count="5" name="HandleElements(failed)">
     <classes>
+      <class name="tests.HandleWindows">
+        <methods>
+          <include name="initTestReport"/>
+          <include name="initSuite"/>
+          <include name="clearReport"/>
+          <include name="cleanUp"/>
+          <include name="HandleWindows"/>
+          <include name="closeReport"/>
+          <include name="launchApp"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- tests.HandleWindows -->
       <class name="tests.HandleWebTable">
         <methods>
+          <include name="initTestReport"/>
           <include name="initSuite"/>
+          <include name="clearReport"/>
           <include name="cleanUp"/>
+          <include name="closeReport"/>
           <include name="HandleWebTable"/>
           <include name="launchApp"/>
           <include name="initDriver"/>
         </methods>
       </class> <!-- tests.HandleWebTable -->
-      <class name="tests.HandleAlerts">
+      <class name="tests.HandleIFrames">
         <methods>
+          <include name="initTestReport"/>
           <include name="initSuite"/>
+          <include name="clearReport"/>
           <include name="cleanUp"/>
+          <include name="HandleIFrames"/>
+          <include name="closeReport"/>
           <include name="launchApp"/>
-          <include name="Dismiss_Confirm"/>
           <include name="initDriver"/>
         </methods>
-      </class> <!-- tests.HandleAlerts -->
+      </class> <!-- tests.HandleIFrames -->
     </classes>
-  </test> <!-- HandleAlerts(failed) -->
+  </test> <!-- HandleElements(failed) -->
 </suite> <!-- Failed suite [FrameworkLibrary] -->

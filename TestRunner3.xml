@@ -2,12 +2,12 @@
   
 <suite name="FrameworkLibrary" verbose="1" >
   <parameter name="env" value="preprod"/>
-  <test name="HandleAlerts">
+  <test name="HandleElements">
     <classes>
-      <class name="tests.HandleAlerts"/>
-     	<class name="tests.HandleIFrames"/>
-       <class name="tests.HandleWindows"/>
-             <class name="tests.HandleWebTable"/>
+      <class name="tests.HandleAlerts"/> 	
+      <class name="tests.HandleIFrames"/>
+      <class name="tests.HandleWindows"/>
+      <class name="tests.HandleWebTable"/>  
     </classes>
   </test>
 </suite>

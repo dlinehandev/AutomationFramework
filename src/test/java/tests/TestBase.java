@@ -1,6 +1,7 @@
 package tests;
 
 import core.TestConfig;
+import core.TestReporter;
 
 import java.io.File;
 import java.lang.reflect.Method;
@@ -19,6 +20,7 @@ public class TestBase {
 	
 	private WebDriver driver;
 	private ITestData testData;
+	private TestReporter reporter;
 
 	@Parameters({"env"})
 	@BeforeSuite
@@ -31,6 +33,7 @@ public class TestBase {
 	public void initDriver() {
 		String browser = TestConfig.getProperty("browser");
 		driver = new DriverFactory().getDriver(browser);
+		reporter = new TestReporter();
 	}
 	
 	public WebDriver getDriver() {
@@ -40,6 +43,18 @@ public class TestBase {
 	@BeforeMethod
 	public void launchApp() {
 		driver.get(TestConfig.getProperty("appBaseURL"));
+	}
+	
+	@BeforeMethod
+	public void initTestReport(Method method){
+		reporter.startReporting(method.getName(), driver);
+	}
+	
+	public TestReporter reporter(){
+		if(reporter!=null){
+			return reporter;
+		}
+		return null;
 	}
 	
 	@DataProvider
@@ -79,11 +94,21 @@ public class TestBase {
 		return dataArray;
 	}
 
+	@AfterMethod
+	public void closeReport(){
+		reporter.endReporting();
+	}
+	
 	@AfterClass
 	public void cleanUp() {
 		if(driver!=null) {
 			driver.quit();
 		}
+	}
+	
+	@AfterSuite
+	public void clearReport(){
+		reporter.flushReport();
 	}
 	
 
