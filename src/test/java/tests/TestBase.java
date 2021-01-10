@@ -20,20 +20,20 @@ public class TestBase {
 	
 	private WebDriver driver;
 	private ITestData testData;
-	private TestReporter reporter;
+	private static TestReporter reporter;
 
 	@Parameters({"env"})
 	@BeforeSuite
 	public void initSuite(String env) throws Exception {
 		TestConfig.load(env);
 		TestConfig.addProperty("env",env);
+		reporter = new TestReporter();
 	}
 	
 	@BeforeClass
 	public void initDriver() {
 		String browser = TestConfig.getProperty("browser");
 		driver = new DriverFactory().getDriver(browser);
-		reporter = new TestReporter();
 	}
 	
 	public WebDriver getDriver() {

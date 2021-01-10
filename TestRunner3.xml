@@ -7,7 +7,7 @@
       <class name="tests.HandleAlerts"/> 	
       <class name="tests.HandleIFrames"/>
       <class name="tests.HandleWindows"/>
-      <class name="tests.HandleWebTable"/>  
-    </classes>
+       <class name="tests.HandleWebTable"/>  
+     </classes>
   </test>
 </suite>

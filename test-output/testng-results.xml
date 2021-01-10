@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="10" passed="1" failed="0" skipped="3">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-07T15:47:58 GMT" name="FrameworkLibrary" finished-at="2021-01-07T15:48:19 GMT" duration-ms="20738">
+  <suite started-at="2021-01-10T14:12:11 GMT" name="FrameworkLibrary" finished-at="2021-01-10T14:24:18 GMT" duration-ms="726952">
     <groups>
     </groups>
-    <test started-at="2021-01-07T15:47:58 GMT" name="HandleElements" finished-at="2021-01-07T15:48:19 GMT" duration-ms="20738">
+    <test started-at="2021-01-10T14:12:11 GMT" name="HandleElements" finished-at="2021-01-10T14:24:18 GMT" duration-ms="726952">
       <class name="tests.HandleAlerts">
-        <test-method is-config="true" signature="initSuite(java.lang.String)[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:47:57 GMT" name="initSuite" finished-at="2021-01-07T15:47:58 GMT" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="initSuite(java.lang.String)[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:10 GMT" name="initSuite" finished-at="2021-01-10T14:12:11 GMT" duration-ms="541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initSuite -->
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:47:58 GMT" name="initDriver" finished-at="2021-01-07T15:48:01 GMT" duration-ms="3081" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:11 GMT" name="initDriver" finished-at="2021-01-10T14:12:15 GMT" duration-ms="4240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:01 GMT" name="initTestReport" finished-at="2021-01-07T15:48:01 GMT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:15 GMT" name="initTestReport" finished-at="2021-01-10T14:12:15 GMT" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,33 +33,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestReport -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:01 GMT" name="launchApp" finished-at="2021-01-07T15:48:05 GMT" duration-ms="3721" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:15 GMT" name="launchApp" finished-at="2021-01-10T14:12:20 GMT" duration-ms="4469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="Dismiss_Confirm()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:05 GMT" name="Dismiss_Confirm" finished-at="2021-01-07T15:48:13 GMT" duration-ms="8085" status="PASS">
+        <test-method signature="Dismiss_Confirm()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:20 GMT" name="Dismiss_Confirm" finished-at="2021-01-10T14:12:26 GMT" duration-ms="6515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dismiss_Confirm -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:13 GMT" name="closeReport" finished-at="2021-01-07T15:48:13 GMT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:26 GMT" name="closeReport" finished-at="2021-01-10T14:12:26 GMT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:13 GMT" name="cleanUp" finished-at="2021-01-07T15:48:13 GMT" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:12:26 GMT" name="cleanUp" finished-at="2021-01-10T14:12:26 GMT" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="clearReport()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-07T15:48:19 GMT" name="clearReport" finished-at="2021-01-07T15:48:19 GMT" duration-ms="507" status="PASS">
+        <test-method is-config="true" signature="clearReport()[pri:0, instance:tests.HandleAlerts@2133814f]" started-at="2021-01-10T14:24:18 GMT" name="clearReport" finished-at="2021-01-10T14:24:19 GMT" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearReport -->
       </class> <!-- tests.HandleAlerts -->
       <class name="tests.HandleWebTable">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:17 GMT" name="initDriver" finished-at="2021-01-07T15:48:18 GMT" duration-ms="1901" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:13:28 GMT" name="initDriver" finished-at="2021-01-10T14:13:31 GMT" duration-ms="3028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:18 GMT" name="initTestReport" finished-at="2021-01-07T15:48:18 GMT" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:13:31 GMT" name="initTestReport" finished-at="2021-01-10T14:13:31 GMT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,116 +67,36 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestReport -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:18 GMT" name="launchApp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034498995" status="SKIP">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:13:31 GMT" name="launchApp" finished-at="2021-01-10T14:13:41 GMT" duration-ms="10023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="HandleWebTable()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:18 GMT" name="HandleWebTable" finished-at="2021-01-07T15:48:18 GMT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="HandleWebTable()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:13:41 GMT" name="HandleWebTable" finished-at="2021-01-10T14:24:17 GMT" duration-ms="636184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HandleWebTable -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:19 GMT" name="closeReport" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034499002" status="SKIP">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:24:17 GMT" name="closeReport" finished-at="2021-01-10T14:24:17 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-07T15:48:19 GMT" name="cleanUp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034499003" status="SKIP">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleWebTable@23f7d05d]" started-at="2021-01-10T14:24:17 GMT" name="cleanUp" finished-at="2021-01-10T14:24:18 GMT" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
       </class> <!-- tests.HandleWebTable -->
       <class name="tests.HandleIFrames">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:13 GMT" name="initDriver" finished-at="2021-01-07T15:48:15 GMT" duration-ms="1671" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:12:26 GMT" name="initDriver" finished-at="2021-01-10T14:12:28 GMT" duration-ms="2238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:15 GMT" name="initTestReport" finished-at="2021-01-07T15:48:15 GMT" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:12:28 GMT" name="launchApp" finished-at="2021-01-10T14:12:32 GMT" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:12:28 GMT" name="initTestReport" finished-at="2021-01-10T14:12:28 GMT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,116 +104,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestReport -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:15 GMT" name="launchApp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034495114" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="HandleIFrames()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:15 GMT" name="HandleIFrames" finished-at="2021-01-07T15:48:15 GMT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="HandleIFrames()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:12:32 GMT" name="HandleIFrames" finished-at="2021-01-10T14:13:05 GMT" duration-ms="33276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HandleIFrames -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:15 GMT" name="closeReport" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034495125" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeReport -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-07T15:48:15 GMT" name="cleanUp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034495126" status="SKIP">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:13:05 GMT" name="cleanUp" finished-at="2021-01-10T14:13:06 GMT" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleIFrames@4c15e7fd]" started-at="2021-01-10T14:13:05 GMT" name="closeReport" finished-at="2021-01-10T14:13:05 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
       </class> <!-- tests.HandleIFrames -->
       <class name="tests.HandleWindows">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:15 GMT" name="initDriver" finished-at="2021-01-07T15:48:16 GMT" duration-ms="1824" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:06 GMT" name="initDriver" finished-at="2021-01-10T14:13:10 GMT" duration-ms="4274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:16 GMT" name="initTestReport" finished-at="2021-01-07T15:48:16 GMT" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:10 GMT" name="launchApp" finished-at="2021-01-10T14:13:17 GMT" duration-ms="6570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="initTestReport(java.lang.reflect.Method)[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:10 GMT" name="initTestReport" finished-at="2021-01-10T14:13:10 GMT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,106 +137,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestReport -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:16 GMT" name="launchApp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034496953" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="HandleWindows()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:16 GMT" name="HandleWindows" finished-at="2021-01-07T15:48:16 GMT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "core.TestReporter.startReporting(String, org.openqa.selenium.WebDriver)" because "this.reporter" is null
-at tests.TestBase.initTestReport(TestBase.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="HandleWindows()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:17 GMT" name="HandleWindows" finished-at="2021-01-10T14:13:28 GMT" duration-ms="10964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HandleWindows -->
-        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:17 GMT" name="closeReport" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034497035" status="SKIP">
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:28 GMT" name="closeReport" finished-at="2021-01-10T14:13:28 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReport -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-07T15:48:17 GMT" name="cleanUp" finished-at="1970-01-01T01:00:00 IST" duration-ms="-1610034497070" status="SKIP">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.HandleWindows@23986957]" started-at="2021-01-10T14:13:28 GMT" name="cleanUp" finished-at="2021-01-10T14:13:28 GMT" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
